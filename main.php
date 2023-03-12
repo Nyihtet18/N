@@ -30,6 +30,7 @@ if($modelid==""){
 $rnd1 = random_str(6, '0123456789');
 $rnd2 = random_str(6, '0123456789');
 if(empty($refresh)){
+echo "empty resh\n";
     goto start;
 }
 
